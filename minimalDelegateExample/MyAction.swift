@@ -11,7 +11,7 @@ protocol MyActionDelegate:class {
 }
 
 class MyAction {
-    
+     
     // MyAction delegate
     weak var delegate:MyActionDelegate?
     
