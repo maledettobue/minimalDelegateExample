@@ -13,6 +13,7 @@
 		3438BCDF1EDEA1EC002BF1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3438BCDE1EDEA1EC002BF1CB /* Assets.xcassets */; };
 		3438BCE21EDEA1EC002BF1CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3438BCE01EDEA1EC002BF1CB /* LaunchScreen.storyboard */; };
 		3438BCED1EDEA1EC002BF1CB /* minimalDelegateExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3438BCEC1EDEA1EC002BF1CB /* minimalDelegateExampleTests.swift */; };
+		3438BCF81EDEA27C002BF1CB /* MyAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3438BCF71EDEA27C002BF1CB /* MyAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3438BCE81EDEA1EC002BF1CB /* minimalDelegateExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minimalDelegateExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3438BCEC1EDEA1EC002BF1CB /* minimalDelegateExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minimalDelegateExampleTests.swift; sourceTree = "<group>"; };
 		3438BCEE1EDEA1EC002BF1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3438BCF71EDEA27C002BF1CB /* MyAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				3438BCD71EDEA1EC002BF1CB /* AppDelegate.swift */,
 				3438BCD91EDEA1EC002BF1CB /* ViewController.swift */,
+				3438BCF71EDEA27C002BF1CB /* MyAction.swift */,
 				3438BCDB1EDEA1EC002BF1CB /* Main.storyboard */,
 				3438BCDE1EDEA1EC002BF1CB /* Assets.xcassets */,
 				3438BCE01EDEA1EC002BF1CB /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3438BCF81EDEA27C002BF1CB /* MyAction.swift in Sources */,
 				3438BCDA1EDEA1EC002BF1CB /* ViewController.swift in Sources */,
 				3438BCD81EDEA1EC002BF1CB /* AppDelegate.swift in Sources */,
 			);
